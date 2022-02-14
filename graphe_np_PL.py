@@ -18,7 +18,7 @@ class Pile:
     def clear(self):
         self.liste.clear()
 
-    # obtenir le dernier élément sans le retirer de la pile ou face
+    # obtenir le dernier élément sans le retirer de la pile
     def last(self):
         return self.liste[len(self.liste) - 1]
 
